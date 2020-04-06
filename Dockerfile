@@ -15,6 +15,8 @@ ENV GENERICCACHE_VERSION=2 \
     CACHE_DOMAINS_BRANCH=master \
     NGINX_WORKER_PROCESSES=auto
 
+COPY overlay/ /
+
 RUN mkdir -m 755 -p /data/cachedomains		;\
 	mkdir -m 755 -p /tmp/nginx				;\
 	apt-get update							;\
