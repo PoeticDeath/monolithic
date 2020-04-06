@@ -1,5 +1,5 @@
 FROM lancachenet/generic:latest
-MAINTAINER LanCache.Net Team <team@lancache.net>
+MAINTAINER TEO <akerr@teo129.ml>
 
 ENV GENERICCACHE_VERSION=2 \
     CACHE_MODE=monolithic \
