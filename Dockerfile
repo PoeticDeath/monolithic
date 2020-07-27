@@ -1,4 +1,4 @@
-FROM lancachenet/generic:latest
+FROM poeticdeath/generic:latest
 MAINTAINER TEO <akerr@teo129.ml>
 
 ENV GENERICCACHE_VERSION=2 \
